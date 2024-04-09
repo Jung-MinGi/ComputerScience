@@ -71,7 +71,7 @@ public class LinkedList<E> implements List<E> {
             addLast(value);
             return;
         }
-        
+
         Node<E> prev_Node = search(index - 1);//index-1에 위치한 노드
         Node<E> currentNode = prev_Node.nextNode;//index에 위치한 노드
 
