@@ -125,42 +125,71 @@ public class DoublyLinkedList<E> implements List<E> {
         E ret = removeNode.data;
         Node<E> prevNode = removeNode.prevNode;//삭제될 노드의 앞 노드
         Node<E> nextNode = removeNode.nextNode;//삭제될 노드의 뒷 노드
-        if(prevNode!=null){
-            prevNode.nextNode=nextNode;
+        if (prevNode != null) {
+            prevNode.nextNode = nextNode;
         }
-        if(nextNode!=null){
-            nextNode.prevNode=prevNode;
+        if (nextNode != null) {
+            nextNode.prevNode = prevNode;
         }
         size--;
-        if(size==0){
-            head=tail=null;
+        if (size == 0) {
+            head = tail = null;
         }
         return ret;
     }
 
     @Override
-    public boolean remove(E value) {
-        return false;
+    public boolean remove(Object value) {
+
+        Node<E> x = head;
+        for (x = head; x != null; x = x.nextNode) {//노드 탐색
+            if (x.data.equals(value)) break;
+        }
+
+        if (x == null) return false;//일치하는 값을 가지는 노드가 없는경우
+
+        if(x.equals(head)){//삭제할 노드가 head노드인 경우
+            remove();
+            return true;
+        }
+
+        Node<E> prevNode = x.prevNode;
+        Node<E> nextNode = x.nextNode;
+        if(nextNode!=null){//삭제할 노드의 다음노드가 null이 아닌경우
+            prevNode.nextNode=nextNode;//삭제노드 앞노드와 삭제노드 다음노드와 서로 링크 시켜줌
+            nextNode.prevNode=prevNode;
+        }else prevNode=tail;//삭제 노드 다음 노드가 null인경우 삭제할 노드가 tail이라는 의미이므로
+                            //삭제할 노드 앞 노드를 tail로 지정
+        size--;
+        return true;
     }
 
     @Override
     public E get(int index) {
-        return null;
+        return search(index).data;
     }
 
     @Override
     public void set(int index, E value) {
-
+        search(index).data=value;
     }
 
     @Override
     public boolean contains(E value) {
-        return false;
+        return indexOf(value)>=0;
     }
 
     @Override
     public int indexOf(E value) {
-        return 0;
+        Node<E> x = head;
+        int index=0;
+        for(;x!=null;x=x.nextNode){
+            if(x.data.equals(value)){
+                return index;
+            }
+            index++;
+        }
+        return -1;
     }
 
     @Override
@@ -170,20 +199,20 @@ public class DoublyLinkedList<E> implements List<E> {
 
     @Override
     public boolean isEmpty() {
-        return false;
+        return size==0;
     }
 
     @Override
     public void clear() {
 
-        for(Node<E> x=head;x.nextNode!=null;){
-            x.prevNode=null;
-            x.data=null;
+        for (Node<E> x = head; x.nextNode != null; ) {
+            x.prevNode = null;
+            x.data = null;
             Node<E> nextNode = x.nextNode;
-            x.nextNode=null;
-            x=nextNode;
+            x.nextNode = null;
+            x = nextNode;
         }
-        size=0;
-        head=tail=null;
+        size = 0;
+        head = tail = null;
     }
 }

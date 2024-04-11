@@ -16,7 +16,6 @@ class DoublyLinkedListTest {
         for (int i = 1; i <= 10; i++) {
             doublyLinkedList.add(i);
         }
-
     }
 
     @Test
@@ -33,17 +32,36 @@ class DoublyLinkedListTest {
     }
 
     @Test
-    @DisplayName("remove")
-    public void removeTest() throws InvocationTargetException, IllegalAccessException, NoSuchMethodException {
+    @DisplayName("remove()")
+    public void removeTest1() throws InvocationTargetException, IllegalAccessException, NoSuchMethodException {
         doublyLinkedList.remove();
         Node<Integer> node = (Node<Integer>) getMethod().invoke(doublyLinkedList, 0);
         Assertions.assertThat(node.data).isEqualTo(2);
 
+
+    }
+
+    @Test
+    @DisplayName("remove(int index)")
+    public void removeTest2() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
         doublyLinkedList.remove(5);
-        Node<Integer> node2 = (Node<Integer>) getMethod().invoke(doublyLinkedList, 5);
-        Assertions.assertThat(node2.data).isEqualTo(8);
+        Node<Integer> node = (Node<Integer>) getMethod().invoke(doublyLinkedList, 5);
+        Assertions.assertThat(node.data).isEqualTo(7);
 
-        Assertions.assertThat(doublyLinkedList.size()).isEqualTo(8);
+        Assertions.assertThat(doublyLinkedList.size()).isEqualTo(9);
+    }
+    @Test
+    @DisplayName("remove(E value)")
+    public void removeTest3() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
+        //리스트 중간에 값 바꿔치기
+        doublyLinkedList.set(5,45);
+        Node<Integer> node = (Node<Integer>) getMethod().invoke(doublyLinkedList, 5);
+        Assertions.assertThat(node.data).isEqualTo(45);
 
+        doublyLinkedList.remove((Object) 45);
+        Node<Integer> ret = (Node<Integer>) getMethod().invoke(doublyLinkedList, 5);
+        Assertions.assertThat(ret.data).isNotEqualTo(45);
+
+        Assertions.assertThat(doublyLinkedList.size()).isEqualTo(9);
     }
 }

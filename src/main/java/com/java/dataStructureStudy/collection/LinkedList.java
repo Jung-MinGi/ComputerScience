@@ -123,7 +123,7 @@ public class LinkedList<E> implements List<E> {
     }
 
     @Override
-    public boolean remove(E value) {
+    public boolean remove(Object value) {
         Node<E> prev_Node = head;
         boolean flag = false;
         Node<E> x = head;//삭제할 노드

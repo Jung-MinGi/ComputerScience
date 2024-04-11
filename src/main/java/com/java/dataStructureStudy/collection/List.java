@@ -8,7 +8,7 @@ public interface List<E> {
 
     E remove(int index);
 
-    boolean remove(E value);
+    boolean remove(Object value);
 
     E get(int index);
     void set(int index,E value);
