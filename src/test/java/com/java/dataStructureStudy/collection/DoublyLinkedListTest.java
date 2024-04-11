@@ -14,7 +14,6 @@ class DoublyLinkedListTest {
     @BeforeEach
     void init() {
         for (int i = 1; i <= 10; i++) {
-//            System.out.println("i = " + i);
             doublyLinkedList.add(i);
         }
 
@@ -23,16 +22,28 @@ class DoublyLinkedListTest {
     @Test
     @DisplayName("search")
     void searchTest() throws NoSuchMethodException, InvocationTargetException, IllegalAccessException {
+        Node<Integer> invoke = (Node<Integer>) getMethod().invoke(doublyLinkedList, 0);
+        Assertions.assertThat(invoke.data).isOne();
+    }
+
+    private Method getMethod() throws NoSuchMethodException {
         Method method = DoublyLinkedList.class.getDeclaredMethod("search", int.class);
         method.setAccessible(true);
-        Node<Integer> invoke = (Node<Integer>) method.invoke(doublyLinkedList, 0);
-        Assertions.assertThat(invoke.data).isOne();
+        return method;
     }
 
     @Test
     @DisplayName("remove")
-    public void removeTest() {
+    public void removeTest() throws InvocationTargetException, IllegalAccessException, NoSuchMethodException {
+        doublyLinkedList.remove();
+        Node<Integer> node = (Node<Integer>) getMethod().invoke(doublyLinkedList, 0);
+        Assertions.assertThat(node.data).isEqualTo(2);
 
+        doublyLinkedList.remove(5);
+        Node<Integer> node2 = (Node<Integer>) getMethod().invoke(doublyLinkedList, 5);
+        Assertions.assertThat(node2.data).isEqualTo(8);
+
+        Assertions.assertThat(doublyLinkedList.size()).isEqualTo(8);
 
     }
 }

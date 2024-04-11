@@ -135,7 +135,6 @@ public class DoublyLinkedList<E> implements List<E> {
         if(size==0){
             head=tail=null;
         }
-
         return ret;
     }
 
@@ -166,7 +165,7 @@ public class DoublyLinkedList<E> implements List<E> {
 
     @Override
     public int size() {
-        return 0;
+        return size;
     }
 
     @Override
