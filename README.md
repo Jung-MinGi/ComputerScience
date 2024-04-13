@@ -1,5 +1,5 @@
 리스트
-* [ArrayList]()
+* [ArrayList](http://mk-blog-env.ap-northeast-2.elasticbeanstalk.com/view/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/21)
 * [LinkedList](http://mk-blog-env.ap-northeast-2.elasticbeanstalk.com/view/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/14)
 * [DoublyLinkedList](http://mk-blog-env.ap-northeast-2.elasticbeanstalk.com/view/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/19)
 
@@ -10,7 +10,7 @@
 4.트리
 4-1탐색트리
 
-****이제 알고리즘
+
 
 1.정렬
 
