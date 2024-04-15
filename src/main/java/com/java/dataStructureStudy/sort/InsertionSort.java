@@ -5,10 +5,9 @@ import java.util.Arrays;
 public class InsertionSort {
     public static void main(String[] args) {
         int[] arr = {5,2,4,6,1,3};
-        InsertionSort a = new InsertionSort();
-        a.insertionSort(arr);
+        insertionSort(arr);
     }
-    public void insertionSort(int[] arr){
+    public static void insertionSort(int[] arr){
         for(int i=1;i<arr.length;i++){
             int v = arr[i];
             int j=i-1;
