@@ -1,6 +1,8 @@
 정렬
 * [Insertion Sort](https://github.com/Jung-MinGi/dataStructure/blob/195ab397b40ceadbc1b5d7e5df21a0711fd6dee9/src/main/java/com/java/dataStructureStudy/sort/InsertionSort.java#L12)
 * [Bubble Sort]()
+* 퀵정렬
+
 
 리스트
 * [ArrayList](http://mk-blog-env.ap-northeast-2.elasticbeanstalk.com/view/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/21)
@@ -14,15 +16,6 @@
 4.트리
 4-1탐색트리
 
-
-
-1.정렬
-
-1-1버블정렬
-
-1-2삽입정렬
-
-1-3퀵정렬
 
 탐색
 
