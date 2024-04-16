@@ -24,11 +24,11 @@
 
 1-3퀵정렬
 
-2.탐색
+탐색
 
-2-1순차탐색
+* 선형탐색
 
-2-2이진참색
+* [이진탐색](http://mk-blog-env.ap-northeast-2.elasticbeanstalk.com/view/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/13)   
 
 2-3이진 탐색 트리
 
