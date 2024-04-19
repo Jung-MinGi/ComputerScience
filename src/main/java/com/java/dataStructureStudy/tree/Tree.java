@@ -75,7 +75,6 @@ public class Tree {
             System.out.print(node.data);
         }
     }
-
 }
 
 
