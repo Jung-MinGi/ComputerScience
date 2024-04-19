@@ -1,8 +1,8 @@
 package com.java.dataStructureStudy.binaryTree;
 
+
 import com.java.dataStructureStudy.tree.Node;
 import com.java.dataStructureStudy.tree.Tree;
-import net.bytebuddy.implementation.auxiliary.AuxiliaryType;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -20,29 +20,29 @@ import java.util.StringTokenizer;
  *            G
  * 위와 같은 트리가 입력으로 주어짐
  */
-class BinaryTreeToArrayTest {
+class BinaryTreeToLinkedListTest {
     Tree tree = new Tree();
 
     @BeforeEach
     void setUp(){
-      String[] arr={ "A B C", "B D .", "C E F", "E . .", "F . G", "D . .", "G . ."};//노드 정보
-      for (String s : arr) {
-          StringTokenizer st = new StringTokenizer(s);
-          char a = st.nextToken().charAt(0);
-          Node parentNode = tree.search(tree.getRoot(), a);
-          if(parentNode==null){
-              parentNode = tree.makeNode(a,null,null);
-              tree.setRoot(parentNode);
-          }
-          char b = st.nextToken().charAt(0);
-          if(b!='.') {
-              parentNode.setLeft( tree.makeNode(b,null,null));
-          }
-          char c = st.nextToken().charAt(0);
-          if(c!='.'){
-              parentNode.setRight(tree.makeNode(c,null,null));
-          }
-      }
+        String[] arr={ "A B C", "B D .", "C E F", "E . .", "F . G", "D . .", "G . ."};//노드 정보
+        for (String s : arr) {
+            StringTokenizer st = new StringTokenizer(s);
+            char a = st.nextToken().charAt(0);
+            Node parentNode = tree.search(tree.getRoot(), a);
+            if(parentNode==null){
+                parentNode = tree.makeNode(a,null,null);
+                tree.setRoot(parentNode);
+            }
+            char b = st.nextToken().charAt(0);
+            if(b!='.') {
+                parentNode.setLeft( tree.makeNode(b,null,null));
+            }
+            char c = st.nextToken().charAt(0);
+            if(c!='.'){
+                parentNode.setRight(tree.makeNode(c,null,null));
+            }
+        }
     }
     @Test
     @DisplayName("search메서드")
