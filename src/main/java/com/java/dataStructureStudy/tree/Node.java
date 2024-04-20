@@ -1,31 +1,40 @@
 package com.java.dataStructureStudy.tree;
 
-public class Node {
-     char data;
-     Node left;
-     Node right;
+public class Node<T> {
+    T data;
+    Node<T> left;
+    Node<T> right;
+    Node<T> parent;
 
-    public void setData(char data) {
-        this.data = data;
-    }
-
-    public void setLeft(Node left) {
-        this.left = left;
-    }
-
-    public void setRight(Node right) {
-        this.right = right;
-    }
-
-    public char getData() {
+    public T getData() {
         return data;
     }
 
-    public Node getLeft() {
+    public void setData(T data) {
+        this.data = data;
+    }
+
+    public Node<T> getLeft() {
         return left;
     }
 
-    public Node getRight() {
+    public void setLeft(Node<T> left) {
+        this.left = left;
+    }
+
+    public Node<T> getRight() {
         return right;
+    }
+
+    public void setRight(Node<T> right) {
+        this.right = right;
+    }
+
+    public Node<T> getParent() {
+        return parent;
+    }
+
+    public void setParent(Node<T> parent) {
+        this.parent = parent;
     }
 }

@@ -12,18 +12,18 @@ public class Tree {
         return root;
     }
 
-    public void setRoot(Node root) {
+    public void setRoot(Node<Character> root) {
         this.root = root;
     }
 
-    public Node search(Node parent, char value) {
-        Queue<Node> queue = new LinkedList<>();
+    public Node<Character> search(Node<Character> parent, char value) {
+        Queue<Node<Character>> queue = new LinkedList<>();
         queue.add(parent);
         while (!queue.isEmpty()) {
             Node poll = queue.poll();
             if (poll == null) continue;
 //            System.out.println("현재 노드:" + parent.getData() + " leftNode: " + parent.left.data + " rightNode: " + parent.right.data);
-            if (poll.data == value) return poll;
+            if (poll.data .equals(value)) return poll;
             else {
                 queue.add(poll.left);
                 queue.add(poll.right);
@@ -32,7 +32,7 @@ public class Tree {
         return null;
     }
 
-    public void searchAllTree(Node parent) {
+    public void searchAllTree(Node<Character> parent) {
         Queue<Node> queue = new LinkedList<>();
         queue.add(parent);
         while (!queue.isEmpty()) {
