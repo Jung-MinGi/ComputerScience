@@ -5,7 +5,7 @@
 <hr>
 탐색
 
-* [BinarySearch](http://mk-blog-env.ap-northeast-2.elasticbeanstalk.com/view/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/13)   
+* [BinarySearch](https://github.com/Jung-MinGi/dataStructure/blob/master/BinarySearch.md)   v
 
 2-3이진 탐색 트리
 
