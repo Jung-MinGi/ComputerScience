@@ -47,7 +47,8 @@ public class BinarySearchTree {
    ...
 }
 ```
-트리생성 메서드 생성
+<h3>트리생성 메서드 생성</h3>
+
 ```
 public void makeTree(int[] a) {
     root = makeTreeRecursive(a, 0, a.length - 1,null);
@@ -64,7 +65,7 @@ public Node makeTreeRecursive(int[] a, int start, int end,Node parent) {
     return node;
 }
 ```
-삭제 메서드 생성
+<h3>삭제 메서드 생성</h3>
 
 노드가 삭제될 때 발생할 수 있는 상황
 
@@ -76,6 +77,7 @@ public Node makeTreeRecursive(int[] a, int start, int end,Node parent) {
 
 3번 상황에서 고려해야 할 점 왼쪽,오른쪽 트리를 모두 가지고 있는 경우 삭제되는 노드 자리에 누가 대체자로 올지 결정해줘야 한다.
 
+![image](https://github.com/Jung-MinGi/dataStructure/assets/118701129/9264e952-d4e1-49a1-b825-da00a536e08f)
 
 출처 https://st-lab.tistory.com/300
 
