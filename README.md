@@ -1,5 +1,28 @@
 <h2>📌 DataStructure && Algorithm</h2>
 ❗❗프리티어 사용 종료로 인해 링크 경로가 변경되었습니다❗❗
+
+<h3>📌Algorithm</h3>
+<hr>
+탐색
+
+* [BinarySearch](http://mk-blog-env.ap-northeast-2.elasticbeanstalk.com/view/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/13)   
+
+2-3이진 탐색 트리
+
+3.우선수위큐와 힙
+
+3-1.우선순위 큐
+
+3-2.힙
+
+4.해시테이블
+
+5.그래프
+
+5-1그래프
+
+
+
 <h3>📌DataStructure</h3>
 <hr>
 리스트
@@ -21,21 +44,3 @@
 * [이진트리](http://mk-blog-env.ap-northeast-2.elasticbeanstalk.com/view/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/23)
 * [이진 탐색 트리](http://mk-blog-env.ap-northeast-2.elasticbeanstalk.com/view/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/9)
 
-<h3>📌Algorithm</h3>
-탐색
-
-* [BinarySearch](http://mk-blog-env.ap-northeast-2.elasticbeanstalk.com/view/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/13)   
-
-2-3이진 탐색 트리
-
-3.우선수위큐와 힙
-
-3-1.우선순위 큐
-
-3-2.힙
-
-4.해시테이블
-
-5.그래프
-
-5-1그래프
