@@ -1,5 +1,8 @@
 <h2>[[자료구조]] 단일 연결 리스트(singly LinkedList)</h2>
 
+전체코드보기
+> https://github.com/Jung-MinGi/dataStructure/blob/fba7c8f7101a2cd01ddfb592287943be46eec195/src/main/java/com/java/dataStructureStudy/collection/LinkedList.java#L5
+
 단일연결 리스트를 이루는 노드 모양
 
 ![image](https://github.com/Jung-MinGi/dataStructure/assets/118701129/bdb48b0b-9ecf-416c-b2ac-779bb82162fa)
