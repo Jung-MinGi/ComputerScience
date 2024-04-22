@@ -1,4 +1,7 @@
 <h2>[[자료구조]]Doubly LinkedList (이중 연결리스트)</h2>
+
+전체코드보기
+> https://github.com/Jung-MinGi/dataStructure/blob/14ed2ba9096b2c4307683e6b23552a61c86966a6/src/main/java/com/java/dataStructureStudy/collection/DoublyLinkedList.java#L6
 단일연결리스트와의 차이점
 
 ![image](https://github.com/Jung-MinGi/dataStructure/assets/118701129/144fce86-e3bd-4895-95b2-1b5eb541c4b0)
