@@ -13,9 +13,6 @@
 * [Bubble Sort]()
 * 퀵정렬
 
-
-
-
 [Stack](http://mk-blog-env.ap-northeast-2.elasticbeanstalk.com/view/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/20)
 
 [Queue](http://mk-blog-env.ap-northeast-2.elasticbeanstalk.com/view/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/22)
@@ -24,12 +21,10 @@
 * [이진트리](http://mk-blog-env.ap-northeast-2.elasticbeanstalk.com/view/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/23)
 * [이진 탐색 트리](http://mk-blog-env.ap-northeast-2.elasticbeanstalk.com/view/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/9)
 
-
+<h3>📌Algorithm</h3>
 탐색
 
-* 선형탐색
-
-* [이진탐색](http://mk-blog-env.ap-northeast-2.elasticbeanstalk.com/view/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/13)   
+* [BinarySearch](http://mk-blog-env.ap-northeast-2.elasticbeanstalk.com/view/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/13)   
 
 2-3이진 탐색 트리
 
