@@ -1,7 +1,7 @@
 <h2>[[자료구조]]Queue</h2>
 배열을 이용하여 Queue구현하기
 
-전체코드보기
+> 전체코드보기
 https://github.com/Jung-MinGi/dataStructure/blob/38ee82b64d6fe1cf56fb5707cf95b674cce7af30/src/main/java/com/java/dataStructureStudy/collection/queue/ArrayQueue.java#L5
 
 <h3>🧐클래스 생성</h3>
