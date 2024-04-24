@@ -1,4 +1,4 @@
-<h3>이진트리(binary tree)</h3>
+<h2>이진트리(binary tree)</h2>
 데이터를 선형적으로 저장하는 자료구조와 달리 계층형으로 데이터를 저장할 수 있는 방법이다.
 
 🧐 이진트리(binary tree)
@@ -10,7 +10,7 @@
 
 출처 https://miro.medium.com/v2/resize:fit:640/format:webp/1*Etc4C2_vkbIgBUApJKMJag.png
 
-[[배열 기반 이진 트리 구현]]
+<h3>연결리스트를 활용한 이진트리</h3>
 
 노드 생성
 ```
@@ -23,7 +23,7 @@ public class Node {
 
 배열로 구현할 경우 배열의 사이즈 는 2^노드개수+1
 
-연결리스트를 활용한 이진트리
+
 ```
 public class Tree {
 
