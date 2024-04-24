@@ -51,4 +51,4 @@
 * [반올림 메서드](https://github.com/Jung-MinGi/dataStructure/blob/master/%EB%B0%98%EC%98%AC%EB%A6%BC%EB%A9%94%EC%84%9C%EB%93%9C.md)
 * [오브젝트 동일성과 동등성](https://github.com/Jung-MinGi/dataStructure/blob/master/%EB%8F%99%EC%9D%BC%EC%84%B1%EA%B3%BC%EB%8F%99%EB%93%B1%EC%84%B1.md)
 
-* [Generic]()
+* [Generic](https://github.com/Jung-MinGi/dataStructure/blob/master/generic.md)
