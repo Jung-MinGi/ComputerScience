@@ -1,4 +1,7 @@
 [[자료구조]] Binary Search Tree 이진탐색 트리
+>전체코드보기
+>https://github.com/Jung-MinGi/dataStructure/blob/450db497af46352c5ed220aacfd8e56694b973d2/src/main/java/com/java/dataStructureStudy/tree/Bst.java#L3
+
 효율적인 탐색을 위한 이진트리기반의 자료구조이다
 
 데이터가 변하지 않고 정렬된 상태라면 이진탐색을 사용하겠지만, 데이터의 삽입, 삭제가 빈번한 상황에선 트리형태의 자료구조가 적합합니다.
