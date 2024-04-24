@@ -11,7 +11,8 @@ Union-Find에 쓰이는 연산
 
 ※Union-Find를 배열로 표현했을 때 문제점
 
-﻿﻿![image](https://github.com/Jung-MinGi/dataStructure/assets/118701129/2a791629-30b6-4381-a52a-df28ba9e778d)
+![image](https://github.com/Jung-MinGi/dataStructure/assets/118701129/7ee855b7-a12e-4faa-bb53-6c85d9442a84)
+
 
 출처 https://bowbowbow.tistory.com/26
 
@@ -35,7 +36,7 @@ public void union(int a, int b) {
 ```
 ﻿find메서드와union메서드를 위 코드처럼 구현하게 되면 트리가 극단적으로 치우친 연결리스트 형태가 나타날 수 있는데
 
- 
+ ﻿﻿![image](https://github.com/Jung-MinGi/dataStructure/assets/118701129/2a791629-30b6-4381-a52a-df28ba9e778d)
                                                             ﻿
 
 이런식이면 배열로 구현했을때 보다 효율이 떨어진다
