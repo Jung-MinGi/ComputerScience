@@ -45,7 +45,7 @@
 
 5-1그래프
 <h3>📌Java</h3>
-* [Comparable와 Comparator]()
+* [Comparable와 Comparator](https://github.com/Jung-MinGi/dataStructure/blob/master/ComparableAndComparator.md)
 * [반올림 메서드]()
 
 
