@@ -28,7 +28,7 @@
 탐색
 
 * [BinarySearch](https://github.com/Jung-MinGi/dataStructure/blob/master/BinarySearch.md)   v
-
+* [다음순열(next permutation)]()v
 2-3이진 탐색 트리
 
 3.우선수위큐와 힙
