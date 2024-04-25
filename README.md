@@ -30,8 +30,6 @@
 * [다음순열(next permutation)](https://github.com/Jung-MinGi/dataStructure/blob/master/next%20permutation.md)v
 * [최소신장트리](https://github.com/Jung-MinGi/dataStructure/blob/master/%EC%B5%9C%EC%86%8C%EC%8B%A0%EC%9E%A5%ED%8A%B8%EB%A6%AC.md)
 * [unionFind](https://github.com/Jung-MinGi/dataStructure/blob/master/unionFind.md)
-* [
-
 
 3.우선수위큐와 힙
 
