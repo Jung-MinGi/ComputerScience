@@ -54,4 +54,5 @@
 
 <h3>📌DataBase</h3>
 * [Join]()
-* [Sql]()
+
+* [Sql](https://github.com/Jung-MinGi/dataStructure/blob/master/sql.md)v
