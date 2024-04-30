@@ -52,6 +52,7 @@
 
 * [Generic](https://github.com/Jung-MinGi/dataStructure/blob/master/generic.md)
 <hr>
+
 <h3>📌DataBase</h3>
 
 * [DBMS란](https://github.com/Jung-MinGi/ComputerScience/blob/master/dbms.md)
