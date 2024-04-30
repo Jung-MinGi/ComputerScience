@@ -51,7 +51,7 @@
 * [오브젝트 동일성과 동등성](https://github.com/Jung-MinGi/dataStructure/blob/master/%EB%8F%99%EC%9D%BC%EC%84%B1%EA%B3%BC%EB%8F%99%EB%93%B1%EC%84%B1.md)
 
 * [Generic](https://github.com/Jung-MinGi/dataStructure/blob/master/generic.md)
-
+<hr>
 <h3>📌DataBase</h3>
 
 * [DBMS란](https://github.com/Jung-MinGi/ComputerScience/blob/master/dbms.md)
