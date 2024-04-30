@@ -55,5 +55,5 @@
 <h3>📌DataBase</h3>
 
 * [DBMS란](https://github.com/Jung-MinGi/ComputerScience/blob/master/dbms.md)
-
+* [관계형데이터모델]()
 * [Sql](https://github.com/Jung-MinGi/dataStructure/blob/master/sql.md)
