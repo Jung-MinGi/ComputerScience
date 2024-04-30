@@ -1,4 +1,4 @@
-<h2>📌 DataStructure && Algorithm && Java</h2>
+<h2>📌 ComputerScience</h2>
 ❗❗프리티어 사용 종료로 인해 링크 경로가 변경되었습니다❗❗
 
 <h3>📌DataStructure</h3>
