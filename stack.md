@@ -1,4 +1,8 @@
 <h2>[[자료구조]]stack(스택)</h2>
+
+전체코드보기
+> https://github.com/Jung-MinGi/ComputerScience/blob/86bd1fbdf7fb4484149ecef177070e543a22a7c7/src/main/java/com/java/dataStructureStudy/collection/stack/Stack.java#L6
+
 가장 늦게 들어온 데이터가 가장 먼저 빠지는 후입선출의 자료구조
 
 Object[]을 기반으로 구현된다.
