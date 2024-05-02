@@ -37,6 +37,13 @@
 5.그래프
 
 5-1그래프
+
+<h3>📌DataBase</h3>
+
+* [DBMS란](https://github.com/Jung-MinGi/ComputerScience/blob/master/dbms.md)
+* [관계형데이터모델](https://github.com/Jung-MinGi/ComputerScience/blob/master/%EA%B4%80%EA%B3%84%ED%98%95%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%AA%A8%EB%8D%B8%20.md)
+* [Sql](https://github.com/Jung-MinGi/dataStructure/blob/master/sql.md)
+
 <h3>📌Java</h3>
 
 * [Comparable와 Comparator](https://github.com/Jung-MinGi/dataStructure/blob/master/ComparableAndComparator.md)
@@ -47,8 +54,4 @@
 * [Generic](https://github.com/Jung-MinGi/dataStructure/blob/master/generic.md)
 <hr>
 
-<h3>📌DataBase</h3>
 
-* [DBMS란](https://github.com/Jung-MinGi/ComputerScience/blob/master/dbms.md)
-* [관계형데이터모델]()
-* [Sql](https://github.com/Jung-MinGi/dataStructure/blob/master/sql.md)
