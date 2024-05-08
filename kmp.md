@@ -18,3 +18,47 @@ abababcd
 이렇게 바로 중간 단계를 건너뛰어 비교를 가능하게 하는 알고리즘이다.
 ```
 
+우선 주어진 부분문자열에서 접두사와 접미사가 일치하는 부분을 찾아야 한다.
+
+각각의 인덱스에서 일치하는 문자열의 최대길이를 찾아야함
+```
+부분 문자열 ababc이 주어 졌을떄
+1.인덱스가 0일때
+접두사 - 없음
+접미사 - 없음
+
+2.인덱스가 1일떄
+접두사 - a
+접미사 - b
+일치하는 문자열이 없다
+
+2.인덱스가 2일떄
+접두사 - a, ab
+접미사 - a, ba
+일치하는 문자열 중 가장 길이가 큰 문자열을 2번인덱스에 저장
+
+2.인덱스가 3일떄
+접두사 - a, ab, aba
+접미사 - a, ab, bab
+일치하는 문자열 중 가장 길이가 큰 문자열을 3번인덱스에 저장
+
+2.인덱스가 4일떄
+접두사 - a, ab, aba, abab
+접미사 - c, bc, abc, babc
+일치하는 문자열이 없다
+
+
+이렇게 해서 나온 배열 [0, 0, 1, 2, 0]을 이용해 문자열과 비교하면서 중간에 건너뛸 수 있다.
+[위 과정을 코드로 구현]
+   static void getPattern(){
+        int maxLength=0;
+        for(int i=1;i<pattern.length();i++){
+            while(maxLength>0&&pattern.charAt(i)!=pattern.charAt(maxLength)){
+                maxLength=pi[maxLength-1];
+            }
+            if(pattern.charAt(i)==pattern.charAt(maxLength)){
+                pi[i]=++maxLength;
+            }
+        }
+    }
+```
