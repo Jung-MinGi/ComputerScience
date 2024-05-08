@@ -62,3 +62,20 @@ abababcd
         }
     }
 ```
+    static void kmpAlgorithm(){
+        int j=0;
+        for(int i=0;i<all.length();i++){
+            while(j>0&&all.charAt(i)!=pattern.charAt(j)){//현재 i인덱스 위치에서 일치하지 않으므로
+                j=pi[j-1];
+            }
+            if(all.charAt(i)==pattern.charAt(j)){
+                if(j==pattern.length()-1){
+                    answer=1;
+                    break;
+                }else j++;
+            }
+        }
+    }
+```
+
+```
