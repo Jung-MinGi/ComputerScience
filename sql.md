@@ -14,11 +14,10 @@
       COUNT(DISTINCT)<BR>
       행의 개수를 센다 중복은 1개만 인정해준다. DISTINCT는 기본적으로 NULL도 제외시킴
 
-* 출력하는 개수를 제한하는 LIMIT
-
-  SELECT * FROM employees ORDER BY date LIMIT n
-
-  주어진 결과값에서 상위 n개의 레코드만 보여줌
+* LIMIT
+  
+  SELECT * FROM employees ORDER BY date LIMIT n<BR>
+  주어진 결과값에서 상위 n개의 행만 보여줌
 
 
 
