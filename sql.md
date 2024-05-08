@@ -3,7 +3,11 @@
   중복 행을 제거할 때 사용
   
   SELECT DISTINCT 열이름 FROM TABLE;
+* WHERE절
 
+  기본 형태 --> WHERE <열 이름> <비교연산자> <속성 값>
+
+  두 개 이상의 조건이 들어가는 경우 논리연산자(AND,OR,NOT)를 중간에 적어준다. 
 
 * 출력하는 개수를 제한하는 LIMIT
 
