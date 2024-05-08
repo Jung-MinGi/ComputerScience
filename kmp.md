@@ -62,11 +62,13 @@ abababcd
         }
     }
 ```
+```
     static void kmpAlgorithm(){
         int j=0;
         for(int i=0;i<all.length();i++){
             while(j>0&&all.charAt(i)!=pattern.charAt(j)){//현재 i인덱스 위치에서 일치하지 않으므로
                 j=pi[j-1];
+            
             }
             if(all.charAt(i)==pattern.charAt(j)){
                 if(j==pattern.length()-1){
@@ -76,6 +78,22 @@ abababcd
             }
         }
     }
-```
+
+/*
+while(j>0&&all.charAt(i)!=pattern.charAt(j)){
+                j=pi[j-1];
+            
+            }
+현재i인덱스의 문자와 j인덱스의 문자가 서로 다를때 실행되는데
+예를 들어 부분문자열의 패턴배열이 pi={0,0,1,2,0}일때
+    ↓
+abababcd
+ababc(부분 문자열)
+    ↑
+4번 인덱스에서 서로 다르니
+ j=pi[j-1];를 거쳐 j가 2가 됨
+다시 while  조건부로 올라가 비교 
+all.charAt(4)!=pattern.charAt(2)가 false가 되므로 while문을 탈출하게 됨
+*/
 
 ```
