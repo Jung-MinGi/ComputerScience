@@ -28,7 +28,12 @@
   SELECT * FROM employees ORDER BY date LIMIT n<BR>
   주어진 결과값에서 상위 n개의 행만 보여줌
 
-
+* GROUP BY절<BR>
+  테이블의 개별 행이 아닌 행 그룹에 대한 검색<BR>
+  GROUP BY절 뒤에는 그룹을 분류하는 기준이 되는 열을 지정한다.<BR>
+  GROUP BY절에서 그룹화 기준으로 사용된 열을 SELECT절에도 명시해줘야 검색 결과의 의미를 파악할 수 있다.<BR>
+  HAVING절은 그룹에 대한 조건을 명세함으로써 질의 결과로 나타나는 그룹을 제한하는 역할을 한다.<BR>
+  
 
 * LIke연산자
 
