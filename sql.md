@@ -8,15 +8,20 @@
   두 개 이상의 조건이 들어가는 경우 논리연산자(AND,OR,NOT)를 중간에 적어준다.
 
 * 집계함수
+  보통 SELECT절이나 HAVING절에 사용한다.
     * COUNT()<BR>
-      특정 열 값의 개수 또는 행의 개수<BR>
+      특정 열 값의 개수 또는 행의 개수 이때 중복 행의 개수를 반환한다.<BR>
       SELECT COUNT() FROM TABLE;<BR>
       COUNT(DISTINCT <열 이름>)<BR>
-      중복은 1개만 인정해준다. DISTINCT는 기본적으로 NULL도 제외시킴
-    * MAX()
-    * MIN()
-    * SUM()
-    * AVG()
+      중복을 무시해주고 NULL을 제외시킴
+    * MAX()<BR>
+      특정 열 값 중에서 최댓값
+    * MIN()<BR>
+      특정 열 값 중에서 최소값
+    * SUM()<BR>
+      특정 열 값의 합계
+    * AVG()<BR>
+      특정 열 값의 평균
 
 * LIMIT
   
