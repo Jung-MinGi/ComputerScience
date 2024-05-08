@@ -9,10 +9,14 @@
 
 * 집계함수
     * COUNT()<BR>
-      행의 개수를 센다<BR>
+      특정 열 값의 개수 또는 행의 개수<BR>
       SELECT COUNT() FROM TABLE;<BR>
-      COUNT(DISTINCT)<BR>
-      행의 개수를 센다 중복은 1개만 인정해준다. DISTINCT는 기본적으로 NULL도 제외시킴
+      COUNT(DISTINCT <열 이름>)<BR>
+      중복은 1개만 인정해준다. DISTINCT는 기본적으로 NULL도 제외시킴
+    * MAX()
+    * MIN()
+    * SUM()
+    * AVG()
 
 * LIMIT
   
