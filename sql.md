@@ -1,13 +1,18 @@
 * DISTINCT
   
-  중복 행을 제거할 때 사용
-  
+  중복 행을 제거할 때 사용<BR>
   SELECT DISTINCT 열이름 FROM TABLE;
 * WHERE절
 
-  기본 형태 --> WHERE <열 이름> <비교연산자> <속성 값>
+  기본 형태 --> WHERE <열 이름> <비교연산자> <속성 값><BR>
+  두 개 이상의 조건이 들어가는 경우 논리연산자(AND,OR,NOT)를 중간에 적어준다.
 
-  두 개 이상의 조건이 들어가는 경우 논리연산자(AND,OR,NOT)를 중간에 적어준다. 
+* 집계함수
+    * COUNT()<BR>
+      행의 개수를 센다<BR>
+      SELECT COUNT() FROM TABLE;<BR>
+      COUNT(DISTINCT)<BR>
+      행의 개수를 센다 중복은 1개만 인정해준다. DISTINCT는 기본적으로 NULL도 제외시킴
 
 * 출력하는 개수를 제한하는 LIMIT
 
@@ -15,15 +20,7 @@
 
   주어진 결과값에서 상위 n개의 레코드만 보여줌
 
-* COUNT()
 
-  행의 개수를 센다
-
-  SELECT COUNT() FROM TABLE;
-
-  COUNT(DISTINCT)
-
-  행의 개수를 센다 중복은 1개만 인정해준다. DISTINCT는 기본적으로 NULL도 제외시킴
 
 * LIke연산자
 
