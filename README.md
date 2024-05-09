@@ -9,15 +9,17 @@
 * [Stack](https://github.com/Jung-MinGi/dataStructure/blob/master/stack.md)
 * [Queue](https://github.com/Jung-MinGi/dataStructure/blob/master/Queue.md)
 
+* 트리
+  * [이진트리](https://github.com/Jung-MinGi/dataStructure/blob/master/binaryTree.md)
+  * [이진 탐색 트리](https://github.com/Jung-MinGi/dataStructure/blob/master/binarySearchTree.md)
+
 * 정렬
   * [Insertion Sort](https://github.com/Jung-MinGi/dataStructure/blob/195ab397b40ceadbc1b5d7e5df21a0711fd6dee9/src/main/java/com/java/dataStructureStudy/sort/InsertionSort.java#L12)
   * [Bubble Sort]()
   * 퀵정렬
 
 
-* 트리
-  * [이진트리](https://github.com/Jung-MinGi/dataStructure/blob/master/binaryTree.md)
-  * [이진 탐색 트리](https://github.com/Jung-MinGi/dataStructure/blob/master/binarySearchTree.md)
+
 <h3>📌Algorithm</h3>
 
 * [BinarySearch](https://github.com/Jung-MinGi/dataStructure/blob/master/BinarySearch.md)   
