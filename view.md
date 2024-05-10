@@ -6,6 +6,25 @@
 * 뷰의 장점
   * 보안에 도움이 된다.<br>
     외부에서 특정 테이블의 컬럼값을 요구하는 경우 나머지 속성값들이 노출될 수 밖에 없는데<br> 이때 해당 테이블의 뷰를 생성해 주면 이러한 문제가 쉽게 해결된다.
-  * 복잡한 쿼리를 단순화시켜준다
+  * 복잡한 쿼리를 단순화시켜준다<br>
     복잡한 쿼리를 자주 사용해야 할 경우 매번 쿼리를 사용하지않고<br>
     쿼리에 대한 결과값을 뷰로 만들어 놓으면 편리하다.
+
+
+![image](https://github.com/Jung-MinGi/ComputerScience/assets/118701129/26219504-7591-43b1-b2d9-8cffbe14c4e9)
+
+* 위 테이블에서 성별이 남자인 뷰 생성해보기
+```
+create view v_emplMan
+as select * from employee where gender = 'M';
+```
+![image](https://github.com/Jung-MinGi/ComputerScience/assets/118701129/9b6189be-21f0-44e0-b6c9-d28489647a4d)
+
+
+* 뷰 수정(칼럼 한국어로 바꾸기)
+```
+alter view v_emplMan
+as select emp_no as '직원번호', birth_date as '생년월일', first_name as '성', last_name as '이름'
+, gender as '성별', hire_date as '고용일' from employee where gender = 'M';
+```
+![image](https://github.com/Jung-MinGi/ComputerScience/assets/118701129/61a50880-2e67-42f4-8175-994c2e90fda6)
