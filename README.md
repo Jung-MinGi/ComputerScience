@@ -15,14 +15,13 @@
 
 
 
-<h3>📌Algorithm</h3>
-
-* [BinarySearch](https://github.com/Jung-MinGi/dataStructure/blob/master/BinarySearch.md)   
-* [다음순열(next permutation)](https://github.com/Jung-MinGi/dataStructure/blob/master/next%20permutation.md)
-* [최소신장트리](https://github.com/Jung-MinGi/dataStructure/blob/master/%EC%B5%9C%EC%86%8C%EC%8B%A0%EC%9E%A5%ED%8A%B8%EB%A6%AC.md)
-* [unionFind](https://github.com/Jung-MinGi/dataStructure/blob/master/unionFind.md)
-* [KMP알고리즘](https://github.com/Jung-MinGi/ComputerScience/blob/master/kmp.md)
-* 
+* 📌Algorithm
+  * [BinarySearch](https://github.com/Jung-MinGi/dataStructure/blob/master/BinarySearch.md)   
+  * [다음순열(next permutation)](https://github.com/Jung-MinGi/dataStructure/blob/master/next%20permutation.md)
+  * [최소신장트리](https://github.com/Jung-MinGi/dataStructure/blob/master/%EC%B5%9C%EC%86%8C%EC%8B%A0%EC%9E%A5%ED%8A%B8%EB%A6%AC.md)
+  * [unionFind](https://github.com/Jung-MinGi/dataStructure/blob/master/unionFind.md)
+  * [KMP알고리즘](https://github.com/Jung-MinGi/ComputerScience/blob/master/kmp.md)
+  * 
 3.우선수위큐와 힙
 
 3-1.우선순위 큐
