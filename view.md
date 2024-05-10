@@ -17,6 +17,10 @@
 ```
 create view v_emplMan
 as select * from employee where gender = 'M';
+
+
+create vs (create or replace view) 차이점
+전자는  기본에 뷰가 있으면 오류가 발생하지만 후자는 기존에 뷰가 있어도 덮었쓰는 효과를 내기 때문에 오류 발생x
 ```
 ![image](https://github.com/Jung-MinGi/ComputerScience/assets/118701129/9b6189be-21f0-44e0-b6c9-d28489647a4d)
 
@@ -28,3 +32,12 @@ as select emp_no as '직원번호', birth_date as '생년월일', first_name as 
 , gender as '성별', hire_date as '고용일' from employee where gender = 'M';
 ```
 ![image](https://github.com/Jung-MinGi/ComputerScience/assets/118701129/61a50880-2e67-42f4-8175-994c2e90fda6)
+
+* 뷰 데이터 입력
+```
+insert into employees(emp_no,birth_date,first_name,last_name,gender,hire_date) values (1,'1997-04-11','jung','mingi','M','2001-04-11');
+```
+![image](https://github.com/Jung-MinGi/ComputerScience/assets/118701129/43d16179-8e59-49e8-ad70-510827c5b65e)
+
+뷰에 데이터를 삽입할땐 뷰가 참조하는 원래 테이블에 데이터를 삽입해주면 된다.
+
