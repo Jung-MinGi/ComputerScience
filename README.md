@@ -1,24 +1,25 @@
 <h2>📌 ComputerScience</h2>
 
 <h3>📌DataStructure</h3>
+
 * [ArrayList](https://github.com/Jung-MinGi/dataStructure/blob/master/ArrayList.md)
 
 * [LinkedList](https://github.com/Jung-MinGi/dataStructure/blob/master/LinkedList.md)
-* 
+ 
 * [DoublyLinkedList](https://github.com/Jung-MinGi/dataStructure/blob/master/DoublyLinkedList.md)
-* 
+ 
 * [Stack](https://github.com/Jung-MinGi/dataStructure/blob/master/stack.md)
-* 
+ 
 * [Queue](https://github.com/Jung-MinGi/dataStructure/blob/master/Queue.md)
-* 
+ 
 * [이진트리](https://github.com/Jung-MinGi/dataStructure/blob/master/binaryTree.md)
-* 
+ 
 * [이진 탐색 트리](https://github.com/Jung-MinGi/dataStructure/blob/master/binarySearchTree.md)
-* 
+  
 * [Insertion Sort](https://github.com/Jung-MinGi/dataStructure/blob/195ab397b40ceadbc1b5d7e5df21a0711fd6dee9/src/main/java/com/java/dataStructureStudy/sort/InsertionSort.java#L12)
-* 
+  
 * [Bubble Sort]()
-* 
+  
 * 퀵정렬
 
 
