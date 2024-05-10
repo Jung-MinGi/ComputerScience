@@ -41,3 +41,14 @@ insert into employees(emp_no,birth_date,first_name,last_name,gender,hire_date) v
 
 뷰에 데이터를 삽입할땐 뷰가 참조하는 원래 테이블에 데이터를 삽입해주면 된다.
 
+* 뷰 삭제하기
+```
+drop view v_emplMan
+```
+* group by절을 사용한 뷰 생성하기
+```
+create or replace view v_emplMan as
+select gender,count(*) from employees group by gender;
+```
+![image](https://github.com/Jung-MinGi/ComputerScience/assets/118701129/32d1ca21-2bf9-4ff9-90a3-a64762575bbc)
+
