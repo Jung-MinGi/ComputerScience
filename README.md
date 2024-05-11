@@ -34,21 +34,17 @@
 
 5-1그래프
 
-<h3>📌DataBase</h3>
-
-* [DBMS란](https://github.com/Jung-MinGi/ComputerScience/blob/master/dbms.md)
-* [관계형데이터모델](https://github.com/Jung-MinGi/ComputerScience/blob/master/%EA%B4%80%EA%B3%84%ED%98%95%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%AA%A8%EB%8D%B8%20.md)
-* [SQL](https://github.com/Jung-MinGi/dataStructure/blob/master/SQL.md)
-* [뷰](https://github.com/Jung-MinGi/ComputerScience/blob/master/view.md)
+* 📌DataBase
+  * [DBMS란](https://github.com/Jung-MinGi/ComputerScience/blob/master/dbms.md)
+  * [관계형데이터모델](https://github.com/Jung-MinGi/ComputerScience/blob/master/%EA%B4%80%EA%B3%84%ED%98%95%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%AA%A8%EB%8D%B8%20.md)
+  * [SQL](https://github.com/Jung-MinGi/dataStructure/blob/master/SQL.md)
+  * [뷰](https://github.com/Jung-MinGi/ComputerScience/blob/master/view.md)
 * 
-<h3>📌Java</h3>
-
-* [Comparable와 Comparator](https://github.com/Jung-MinGi/dataStructure/blob/master/ComparableAndComparator.md)
-
-* [반올림 메서드](https://github.com/Jung-MinGi/dataStructure/blob/master/%EB%B0%98%EC%98%AC%EB%A6%BC%EB%A9%94%EC%84%9C%EB%93%9C.md)
-* [오브젝트 동일성과 동등성](https://github.com/Jung-MinGi/dataStructure/blob/master/%EB%8F%99%EC%9D%BC%EC%84%B1%EA%B3%BC%EB%8F%99%EB%93%B1%EC%84%B1.md)
-
-* [Generic](https://github.com/Jung-MinGi/dataStructure/blob/master/generic.md)
+* 📌Java
+  * [Comparable와 Comparator](https://github.com/Jung-MinGi/dataStructure/blob/master/ComparableAndComparator.md)
+  * [반올림 메서드](https://github.com/Jung-MinGi/dataStructure/blob/master/%EB%B0%98%EC%98%AC%EB%A6%BC%EB%A9%94%EC%84%9C%EB%93%9C.md)
+  * [오브젝트 동일성과 동등성](https://github.com/Jung-MinGi/dataStructure/blob/master/%EB%8F%99%EC%9D%BC%EC%84%B1%EA%B3%BC%EB%8F%99%EB%93%B1%EC%84%B1.md)
+  * [Generic](https://github.com/Jung-MinGi/dataStructure/blob/master/generic.md)
 <hr>
 
 
