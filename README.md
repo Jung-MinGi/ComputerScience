@@ -10,7 +10,7 @@
   * [이진트리](https://github.com/Jung-MinGi/dataStructure/blob/master/binaryTree.md)
   * [이진 탐색 트리](https://github.com/Jung-MinGi/dataStructure/blob/master/binarySearchTree.md)
   * [Insertion Sort](https://github.com/Jung-MinGi/dataStructure/blob/195ab397b40ceadbc1b5d7e5df21a0711fd6dee9/src/main/java/com/java/dataStructureStudy/sort/InsertionSort.java#L12)
-  * [Bubble Sort]()
+  * [Bubble Sort]
   * 퀵정렬
 
 * 📌Algorithm
@@ -25,8 +25,8 @@
   * [관계형데이터모델](https://github.com/Jung-MinGi/ComputerScience/blob/master/%EA%B4%80%EA%B3%84%ED%98%95%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%AA%A8%EB%8D%B8%20.md)
   * [SQL](https://github.com/Jung-MinGi/dataStructure/blob/master/SQL.md)
   * [뷰](https://github.com/Jung-MinGi/ComputerScience/blob/master/view.md)
-  * [인덱스]()
-  * [JSON]()
+  * [인덱스]
+  * [JSON]
 * 📌Java
   * [Comparable와 Comparator](https://github.com/Jung-MinGi/dataStructure/blob/master/ComparableAndComparator.md)
   * [반올림 메서드](https://github.com/Jung-MinGi/dataStructure/blob/master/%EB%B0%98%EC%98%AC%EB%A6%BC%EB%A9%94%EC%84%9C%EB%93%9C.md)
