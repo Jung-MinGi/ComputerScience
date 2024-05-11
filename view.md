@@ -20,7 +20,7 @@ as select * from employee where gender = 'M';
 
 
 create vs (create or replace view) 차이점
-전자는  기본에 뷰가 있으면 오류가 발생하지만 후자는 기존에 뷰가 있어도 덮었쓰는 효과를 내기 때문에 오류 발생x
+전자는  기존에 뷰가 있으면 오류가 발생하지만 후자는 기존에 뷰가 있어도 덮었쓰는 효과를 내기 때문에 오류 발생x
 ```
 ![image](https://github.com/Jung-MinGi/ComputerScience/assets/118701129/9b6189be-21f0-44e0-b6c9-d28489647a4d)
 
