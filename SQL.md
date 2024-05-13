@@ -51,13 +51,15 @@
   select * from user where name LIKE  '김%'<br>
   앞글자가 '김'으로 시작하는 모든 문자열이 올 수 있다
 
-* DATETIME에서 DATE로 형 변환
-
-  date_format(DATETIME,'%Y-%m-%d')
-
-  %y -- 두자리 연도 ex) 23
-
-  %Y -- 네자리 연도 ex)2023
+* 날짜 관련 함수
+  * DATETIME에서 DATE로 형 변환<BR>
+  ```
+    date_format(DATETIME,'%Y-%m-%d')<BR>
+  ```
+    %y -- 두자리 연도 ex) 23<BR>
+    %Y -- 네자리 연도 ex)2023
+  * DATEDIFF()<BR>
+    두 날짜사이의 차이를 구할 수 있다.
 * case ~ when ~ then
   특정 칼럼의 조건에 따라서 다른 컬럼의 값을 업데이터 해줘야 할 떄 사용<br>
   ```
@@ -68,4 +70,5 @@
   else 결과값
   end as 별칭
   ```
+
     
