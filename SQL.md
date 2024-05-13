@@ -58,6 +58,14 @@
   %y -- 두자리 연도 ex) 23
 
   %Y -- 네자리 연도 ex)2023
-
-
+* case ~ when ~ then
+  특정 칼럼의 조건에 따라서 다른 컬럼의 값을 업데이터 해줘야 할 떄 사용<br>
+  ```
+  case
+  when 조건식 then 결과값
+  when 조건식 then 결과값
+  ...
+  else 결과값
+  end as 별칭
+  ```
     
