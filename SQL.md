@@ -56,8 +56,10 @@
   ```
     date_format(DATETIME,'%Y-%m-%d')<BR>
   ```
-    %y -- 두자리 연도 ex) 23<BR>
-    %Y -- 네자리 연도 ex)2023
+
+      %y -- 두자리 연도 ex) 23<BR>
+      %Y -- 네자리 연도 ex)2023
+  
   * DATEDIFF()<BR>
     두 날짜사이의 차이를 구할 수 있다.
 * case ~ when ~ then
