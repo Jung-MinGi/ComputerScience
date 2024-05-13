@@ -12,8 +12,8 @@
         from ANIMAL_INS I LEFT OUTER JOIN ANIMAL_OUTS O
         ON I.ANIMAL_ID = O.ANIMAL_ID
        ```
-      ![image](https://github.com/Jung-MinGi/ComputerScience/assets/118701129/696564c6-333a-44b3-adc6-97abfe425d5f)
-      
+        ![image](https://github.com/Jung-MinGi/ComputerScience/assets/118701129/696564c6-333a-44b3-adc6-97abfe425d5f)
+        
      * RIGHT OUTER JOIN
      * J
      * FULL OUTER JOIN
