@@ -20,9 +20,8 @@ IoC컨테이너가 오브젝트를 제어할 수 있도록 적절한 메타정�
 IoC컨테이너가 필요한 설정 메타정보는 빈을 어떻게 만들고 어떻게 동작하게 할 것인가에 관한 정보를 내가 제공해주어야 한다.<br>
 
 ```
-어떤 빈 정보(외부 리소스 xml...)가 있음 --> BeanDefinitionReader(컨테이너가 이해할수있는 BeanDefinition오브젝트로 변환해주는 기능을 가진 오브젝트)가
- BeanDefinitionReader라고 부른다
-외부리소스(어떤 빈 정보)에 따라 해당되는 여러 리더기가 존재함
+어떤 빈 정보(외부 리소스 xml...)가 있음 --> BeanDefinitionReader가 컨테이너가 이해할수있는 BeanDefinition오브젝트로 변환해준다
+따라서 어떤 메타정보든 그걸 BeanDefinition으로 변환해주는 리더기가 있으면 설정정보로 쓰일 수 있다.
 ```
 
 * IoC컨테이너 종류와 사용법<br>
