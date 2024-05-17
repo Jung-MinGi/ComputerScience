@@ -23,12 +23,8 @@ IoC컨테이너가 필요한 설정 메타정보는 빈을 어떻게 만들고 �
 어떤 빈 정보(외부 리소스 xml...)가 있음 --> BeanDefinitionReader가 컨테이너가 이해할수있는 BeanDefinition오브젝트로 변환해준다
 따라서 어떤 메타정보든 그걸 BeanDefinition으로 변환해주는 리더기가 있으면 설정정보로 쓰일 수 있다.
 ```
-
-* IoC컨테이너 종류와 사용법<br>
-  * GenericApplicationContext
-    XML파일과 같은 외부의 리소스에 있는 빈 설정 메타정보를 리더를 통해 읽어들여서 메타정보로 전환해서 사용한다.<br>
-    XML포맷에 사용되는 리더기는 XmlBeanDefinitionReader이다.<br>
-    이 리더기를 통해 xml로 작성된 빈 정보를 읽어 이를 BeanDefinition정보로 변환해주는 것이다.
+* WebApplicationContext
+   
 
 🧐@Configuration
 
