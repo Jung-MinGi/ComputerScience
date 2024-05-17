@@ -35,7 +35,7 @@
 <hr>
 
 ## spring
-* [웹 어플리케이션의 동작 원리]
+* [웹 어플리케이션의 동작 원리](https://github.com/Jung-MinGi/ComputerScience/blob/master/%EC%9B%B9%20%EA%B8%B0%EB%B3%B8%20%EA%B0%9C%EB%85%90.md)
 * [스프링 ioc 전략](https://github.com/Jung-MinGi/ComputerScience/blob/master/springIoC.md)
 
 * [applicationContext에 오브젝트 의존관계 설정정보를 넘기기](https://github.com/Jung-MinGi/SpringStudy/blob/master/applicationContext%EC%97%90%20%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8%EC%9D%98%EC%A1%B4%EA%B4%80%EA%B3%84%20%EC%84%A4%EC%A0%95.md)
