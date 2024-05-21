@@ -5,10 +5,18 @@
 - 웹 어플리케이션 서버(WAS): Java EE의 기술을 구현해논것
 - Web Container(servlet Container): servlet&Jsp의 기능을 가진다. 웹 클라이언트의 http요청을 받고 servlet의 생명주기는 관리하며 jsp,filter등을 지원한다. Java에서는 http요청을 servlet을 통해 처리하기 때문에 servlet Container라고도 부른다
 * 아파치 톰켓: Java EE에서 모두 구현한것이 WAS인데, 톰캣은 WebContainer만 구현하고 있기때문에 온전한 WAS는 아니다.
-  ```
-  
-  javax.servlet: 자바로 웹 프로그래밍할때 필요한 최소 스펙
-  ```
+<h2>Java EE --> spring 대체</h2>
+
+EJB종속성에서 벗어나고자 Java EE가 나오게 되었는데, 결국 Java EE에도 종속되어버리게 됨.<br>
+그래서 POJO방식(특정 클래스를 상속하거나 인터페이스를 구현하지 않은 가벼운 객체)를 원하게됨<br>
+Java EE를 개선해서 나오게 된게 Spring이다.
+
+![image](https://github.com/Jung-MinGi/ComputerScience/assets/118701129/c3b158cb-7d7d-4ec9-89d8-40fb56debe31)
+
+위 그림처럼 Java EE의 WebContainer는 톰켓이 EJB Container부분은 스프링이 대체하게 되었다.<br>
+스프링은 POJO 방식의 프로그래밍을 지향하며 비침투적인 기술(IoC/DI, AOP, PSA)을 지향한다.
+
+-
 * Java 웹 프로그래밍을 한다는 의미:
   *  java언어로 웹 어플리케이션을 만든다는 의미
   *  내가 만든 웹 어플리케이션이 돌아갈 was가 필요하다는 의미.
