@@ -1,8 +1,11 @@
-웹이란? : HTTP방식을 이용해 데이터를 주고받는 것을 보통 웹이라 부른다<br>
-웹 어플리케이션: 웹 브라우저에서 이용할 수 있는 응용 소프트웨어(스프링으로 만든게 웹어플리케이션임)
-* 웹 어플리케이션 서버(WAS): 웹 어플리케이션이 동작할 수 있도록 도와주는 미들웨어자바 EE 표준스펙을 준수하며 만든 웹 어플리케이션 서버를 WAS라고 부른다.<br>
+<h2>Java EE</h2>
+
+> 애플리케이션을 개발/실행하기 위한 기술과 환경을 제공하며 서블릿, JSP, EJB, JDBC, JNDI, JMX, JTA 등의 알려진 기술을 포함하고 있습니다.
+- 웹 어플리케이션 서버(WAS): Java EE의 기술을 구현해논것
+- Web Container(servlet Container): 웹 클라이언트의 http요청을 받고 servlet의 생명주기는 관리하며 jsp,filter등을 지원한다. Java에서는 http요청을 servlet을 통해 처리하기 때문에 servlet Container라고도 부른다
 * 아파치 톰켓: 자바 EE에 대한 표준을 일부 준수(javax.servlet)한 웹 어플리케이션 서버 javax->jakarta로 나중에 바뀜
   ```
+  
   javax.servlet: 자바로 웹 프로그래밍할때 필요한 최소 스펙
   ```
 * Java 웹 프로그래밍을 한다는 의미:
