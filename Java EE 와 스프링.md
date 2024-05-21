@@ -13,6 +13,8 @@ Java EE를 개선해서 나오게 된게 Spring이다.
 
 ![image](https://github.com/Jung-MinGi/ComputerScience/assets/118701129/c3b158cb-7d7d-4ec9-89d8-40fb56debe31)
 
+
+
 위 그림처럼 Java EE의 WebContainer는 톰켓이 EJB Container부분은 스프링이 대체하게 되었다.<br>
 스프링은 POJO 방식의 프로그래밍을 지향하며 비침투적인 기술(IoC/DI, AOP, PSA)을 지향한다.
 
@@ -69,3 +71,6 @@ httpservlet란 http메세지를 처리해주는 클래스
 2. EJB<br>
 
 
+- References
+  - https://colour-my-memories-blue.tistory.com/14
+  - https://www.samsungsds.com/kr/insights/java_jakarta.html
