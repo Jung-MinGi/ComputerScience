@@ -1,6 +1,7 @@
 <h2>Java EE</h2>
 
 > 애플리케이션을 개발/실행하기 위한 기술과 환경을 제공하며 서블릿, JSP, EJB, JDBC, JNDI, JMX, JTA 등의 알려진 기술을 포함하고 있습니다.
+> Java EE가 오라클레서 이클립스 재단으로 이관되며 공식 명칭이 Jakarta EE로 변경
 - 웹 어플리케이션 서버(WAS): Java EE의 기술을 구현해논것
 - Web Container(servlet Container): 웹 클라이언트의 http요청을 받고 servlet의 생명주기는 관리하며 jsp,filter등을 지원한다. Java에서는 http요청을 servlet을 통해 처리하기 때문에 servlet Container라고도 부른다
 * 아파치 톰켓: 자바 EE에 대한 표준을 일부 준수(javax.servlet)한 웹 어플리케이션 서버 javax->jakarta로 나중에 바뀜
