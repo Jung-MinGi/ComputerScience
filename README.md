@@ -32,7 +32,8 @@
   * [반올림 메서드](https://github.com/Jung-MinGi/dataStructure/blob/master/%EB%B0%98%EC%98%AC%EB%A6%BC%EB%A9%94%EC%84%9C%EB%93%9C.md)
   * [오브젝트 동일성과 동등성](https://github.com/Jung-MinGi/dataStructure/blob/master/%EB%8F%99%EC%9D%BC%EC%84%B1%EA%B3%BC%EB%8F%99%EB%93%B1%EC%84%B1.md)
   * [Generic](https://github.com/Jung-MinGi/dataStructure/blob/master/generic.md)
-<링](https://github.com/Jung-MinGi/ComputerScience/blob/master/Java%20EE%20%EC%99%80%20%EC%8A%A4%ED%94%84%EB%A7%81.md)
+    
+* [JavaEE와 스프링](https://github.com/Jung-MinGi/ComputerScience/blob/master/Java%20EE%20%EC%99%80%20%EC%8A%A4%ED%94%84%EB%A7%81.md)
 * [스프링 ioc 전략](https://github.com/Jung-MinGi/ComputerScience/blob/master/springIoC.md)
 
 * [applicationContext에 오브젝트 의존관계 설정정보를 넘기기](https://github.com/Jung-MinGi/SpringStudy/blob/master/applicationContext%EC%97%90%20%EC%98%A4%EB%B8%8C%EC%A0%9D%ED%8A%B8%EC%9D%98%EC%A1%B4%EA%B4%80%EA%B3%84%20%EC%84%A4%EC%A0%95.md)
