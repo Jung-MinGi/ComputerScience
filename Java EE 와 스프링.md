@@ -47,7 +47,7 @@ httpservlet란 http메세지를 처리해주는 클래스
 자바 엔터프라이즈 에플리케이션 개발을 도와주는 프레임워크며 스프링을 사용하면 독립실행 자바 에플리케이션, 웹 애플리케이션,애플릿등 다양한 유형의 자바 애플리케이션을 개발할 수 있다.<br>
 
 - 스프링 모듈
-  - [핵심컨테이너]()
+  - [핵심컨테이너](https://github.com/Jung-MinGi/ComputerScience/blob/master/%ED%95%B5%EC%8B%AC%EC%BB%A8%ED%85%8C%EC%9D%B4%EB%84%88.md)
   - 웹
   - 테스트
   - 데이터 접근/통합
