@@ -12,3 +12,9 @@ Servlet API는 서버에서 구현되도록 고안된 표준화된 API입니다.
 
 서블릿 컨테이너가 소켓을 열고 http메세지를 받아들여 파싱해주고 이를 HttpServleRequest객체로 만들어 request에 적절한 서블릿에세 파라미터로 넘겨준다.<br>
 이후 개발자는 해당 요청을 처리하고 HttpServleResponse객체에 값을 담아주면 컨테이너가 다시 후처리후 client로 넘겨준다.
+
+<h3>서블릿 컨테이너(Tomcat)에서 다중요청 처리</h3>
+
+- Tomcat은 다중 요청을 처리하기 위해서, 부팅할 때 스레드의 컬렉션인 Thread Pool을 생성합니다.
+- 유저 요청(HttpServletRequest)가 들어오면 Thread Pool에서 하나씩 Thread를 할당합니다. 해당 Thread에서 스프링부트에서 작성한 Dispatcher Servlet을 거쳐 유저 요청을 처리합니다.
+- 작업을 모두 수행하고 나면 스레드는 스레드풀로 반환됩니다.
